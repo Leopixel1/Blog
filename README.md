@@ -15,7 +15,7 @@ To get a local copy up and running follow these simple example steps.
 
 1.  Clone the repo
     ```sh
-    git clone https://github.com/your_username_/your_repository_.git
+    git clone https://github.com/leopixel1/your_repository_.git
     ```
 2.  Install PIP packages
     ```sh
@@ -29,3 +29,24 @@ To get a local copy up and running follow these simple example steps.
     ```sh
     python manage.py runserver
     ```
+
+### Running the Frontend
+
+1.  Navigate to the `frontend` directory
+    ```sh
+    cd frontend
+    ```
+2.  Install NPM packages
+    ```sh
+    npm install
+    ```
+3.  Run the development server
+    ```sh
+    npm start
+    ```
+
+## Tech Stack
+
+*   **Backend:** Django, Django REST Framework
+*   **Frontend:** React
+*   **Database:** SQLite (for development)
