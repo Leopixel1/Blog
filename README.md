@@ -29,9 +29,3 @@ To get a local copy up and running follow these simple example steps.
     ```sh
     python manage.py runserver
     ```
-
-## Tech Stack
-
-*   **Backend:** Django, Django REST Framework
-*   **Frontend:** React (coming soon)
-*   **Database:** SQLite (for development)
