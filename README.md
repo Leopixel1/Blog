@@ -36,17 +36,35 @@ To get a local copy up and running, follow these steps.
     cd your_repository_
     ```
 
-2.  **Install Python dependencies:**
+2.  **Create and activate a virtual environment:**
+
+    Before installing the dependencies, it's recommended to create a virtual environment to keep the project's dependencies isolated.
+
+    -   **On macOS and Linux:**
+        ```sh
+        python3 -m venv venv
+        source venv/bin/activate
+        ```
+
+    -   **On Windows:**
+        ```sh
+        python -m venv venv
+        .\venv\Scripts\activate
+        ```
+
+3.  **Install Python dependencies:**
+
+    With the virtual environment activated, install the required packages:
     ```sh
     pip install -r requirements.txt
     ```
 
-3.  **Apply database migrations:**
+4.  **Apply database migrations:**
     ```sh
     python manage.py migrate
     ```
 
-4.  **Run the Django development server:**
+5.  **Run the Django development server:**
     ```sh
     python manage.py runserver
     ```
